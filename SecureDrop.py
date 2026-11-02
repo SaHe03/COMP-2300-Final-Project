@@ -19,7 +19,7 @@ def register ():
                     print("Passwords didn't match. Please try again.")
                     password = getpass("Enter Password: ")
                     passcheck = getpass("Re-enter Password: ")
-                    id.write(password)
+            id.write(password)
     except FileExistsError:
         login()
 
